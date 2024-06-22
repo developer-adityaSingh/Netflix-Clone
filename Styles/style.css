@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+header {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%), url("https://assets.nflxext.com/ffe/siteui/vlv3/a56dc29b-a0ec-4f6f-85fb-50df0680f80f/2f8ae902-8efe-49bb-9a91-51b6fcc8bf46/IN-en-20240617-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+}
+
+nav {
+    margin-top: 1.5rem;
+    width: 75vw;
+    margin: auto;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    gap: 1.2rem;
+    padding-top: 1.2rem;
+}
+
+nav ul .logo {
+    width: 9.25rem;
+    height: 2.5rem;
+    margin-right: auto;
+}
+
+nav ul .lang .Language {
+    padding: 0.4rem;
+    font-size: 1rem;
+    font-weight: 400;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: white;
+}
+
+nav ul .logo svg {
+    color: rgb(229, 9, 20);
+    fill: currentColor;
+}
+
+nav ul .btn-sign-in {
+    padding: 0.4rem;
+    font-size: 1rem;
+    background-color: rgb(229, 9, 20);
+    border-radius: 6px;
+    color: white;
+}
+
+.search-box-area {
+    height: 85vh;
+}
+
+.search-area {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.search-box-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-bottom: 7px solid rgb(79, 77, 77);
+}
+
+.search-area h1 {
+    font-size: 3.4rem;
+}
+
+.search-area span {
+    font-size: 1.8rem;
+}
+
+.form-input {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-input form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+}
+
+.form-input form .input-div {
+    display: flex;
+    gap: 15px;
+}
+
+.search-area form input {
+    padding-left: 1.8rem;
+    font-size: 1rem;
+    padding-bottom: 0.8rem;
+    filter: opacity(40%);
+    color: inherit;
+    padding-top: 0.8rem;
+    border-radius: 8px;
+    width: 100%;
+}
+
+.btn-get-started {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0.4rem;
+    width: 30%;
+    background-color: rgb(229, 9, 20);
+    border-radius: 8px;
+    color: white;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.main1, .main2, .main3, .main4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4.4rem;
+    padding-bottom: 4.4rem;
+    border-bottom: 7px solid rgb(79, 77, 77);
+}
+
+.text-left-main1{
+    flex-basis: 40%;
+}
+
+.text-left-main3{
+    flex-basis: 35%;
+}
+
+.main3{
+    gap: 70px;
+}
+
+.text-left-main1 h1,
+.text-right-main2 h1,
+.text-left-main3 h1,
+.text-right-main4 h1 {
+    font-size: 3.4rem;
+    color: white;
+}
+
+.text-left-main1 p,
+.text-right-main2 p,
+.text-left-main3 p,
+.text-right-main4 p {
+    font-size: 1.6rem;
+    font-weight: 100;
+    color: white;
+}
+
+.frequenty-asked-qns .fqn {
+    width: 100%;
+    border-bottom: 7px solid rgb(79, 77, 77);
+}
+
+.frequenty-asked-qns .fqn .qns {
+    display: flex;
+    width: 70vw;
+    margin: 1.5rem auto;
+    gap: 35px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    color: white;
+}
+
+.frequenty-asked-qns .fqn .qns h2 {
+    margin: auto;
+    font-size: 2.5rem;
+}
+
+.frequenty-asked-qns .fqn .qns ul {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    list-style: none;
+    line-height: 1.5;
+    font-size: 1.5rem;
+    width: 100%;
+}
+
+.frequenty-asked-qns .fqn .qns ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(95, 89, 89);
+    padding: 1.1rem;
+}
+
+.footer {
+    display: flex;
+    padding: 4.4rem;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 5px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.footer .imp-links {
+    line-height: 2.5;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.footer .imp-links a {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.lang-footer {
+    display: inline-flex;
+    align-items: center;
+    fill: currentColor;
+}
+
+.lang-footer .lang-drop {
+    display: inline-flex;
+    padding: 0.4rem;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.footer .lang-footer #languageFoot {
+    font-size: 1.1rem;
+    padding: 0.2rem;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: white; 
+}
+
+.footer-text p{
+    color: rgba(255, 255, 255, 0.7);
+    padding-left: 4.4rem;
+    padding-bottom: 2.4rem;
+}
