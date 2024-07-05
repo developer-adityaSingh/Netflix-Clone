@@ -484,9 +484,12 @@ nav ul .btn-sign-in {
     }
 
     .frequenty-asked-qns .fqn .qns h2 {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
-
+    .frequenty-asked-qns .fqn .qns ul{
+        font-size: 1.1rem;
+        gap: 10px;
+    }
     .frequenty-asked-qns .fqn .qns {
         width: 85vw;
     }
@@ -498,7 +501,7 @@ nav ul .btn-sign-in {
     .footer .imp-links {
         line-height: 2.5;
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: 1fr 1fr;
     }
 
     .lang-footer .lang-drop {
