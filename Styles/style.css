@@ -353,7 +353,7 @@ nav ul .btn-sign-in {
     
     .main1, .main2, .main3, .main4 {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: center;
         align-items: center; 
         text-align: center;
@@ -373,7 +373,7 @@ nav ul .btn-sign-in {
     .text-right-main2 p,
     .text-left-main3 p,
     .text-right-main4 p {
-    font-size: 1rem;
+    font-size: 0.7rem;
     font-weight: 100;
     color: white;
     }
@@ -383,10 +383,10 @@ nav ul .btn-sign-in {
         width: 50vw;
     }
     .img-left-main2 img{
-    height: 20rem;
+    height: 10rem;
     }
     .img-left-main4 img{
-        width: 23rem;
+        width: 13rem;
     }
 
     .frequenty-asked-qns .fqn .qns h2 {
