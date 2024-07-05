@@ -23,7 +23,6 @@ You can view the live version of the Netflix clone [here](https://netflix-cloned
 1. Clone the repository:
 
 ```bash
-Copy code
 git clone https://github.com/developer-adityaSingh/Netflix-Clone.git
 ```
 2. Navigate to the project directory:
@@ -38,4 +37,5 @@ Contributions are welcome! If you find any issues or improvements to suggest, fe
 
 Author
 Aditya Singh
+
 GitHub: developer-adityaSingh
