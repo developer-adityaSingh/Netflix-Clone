@@ -263,7 +263,11 @@ nav ul .btn-sign-in {
 
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
     .search-area h1 {
-        font-size: 2.4rem;
+        font-size: 2.1rem;
+    }
+
+    .search-area span {
+        font-size: 1.4rem;
     }
     
     .main1, .main2, .main3, .main4 {
@@ -276,11 +280,16 @@ nav ul .btn-sign-in {
         border-bottom: 7px solid rgb(79, 77, 77);
     }
 
+    .main2 .text-right-main2,
+    .main4 .text-right-main4{
+        margin-right: 8.2px;
+    }
+
     .text-left-main1 h1,
     .text-right-main2 h1,
     .text-left-main3 h1,
     .text-right-main4 h1 {
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     color: white;
     }
 
@@ -288,7 +297,7 @@ nav ul .btn-sign-in {
     .text-right-main2 p,
     .text-left-main3 p,
     .text-right-main4 p {
-    font-size: 1rem;
+    font-size: 0.8rem;
     font-weight: 100;
     color: white;
     }
@@ -298,10 +307,13 @@ nav ul .btn-sign-in {
         width: 30vw;
     }
     .img-left-main2 img{
-    height: 20rem;
+    height: 15rem;
     }
     .img-left-main4 img{
-        width: 23rem;
+        width: 16rem;
+    }
+    .footer .imp-links{
+        grid-template-columns: 1fr 1fr 1fr;
     }
 }
 
