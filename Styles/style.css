@@ -435,20 +435,19 @@ nav ul .btn-sign-in {
     }
     
     .search-area h1 {
-        font-size: 1.6rem;
+        font-size: 1.4rem;
     }
 
     .search-area span {
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 
     .form-input form label{
-        font-size: 0.9rem;
+        font-size: 0.7rem;
     }
-    
     .main1, .main2, .main3, .main4 {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: center;
         align-items: center; 
         text-align: center;
@@ -460,7 +459,7 @@ nav ul .btn-sign-in {
     .text-right-main2 h1,
     .text-left-main3 h1,
     .text-right-main4 h1 {
-    font-size: 1.8rem;
+    font-size: 1.2rem;
     color: white;
     }
 
@@ -468,7 +467,7 @@ nav ul .btn-sign-in {
     .text-right-main2 p,
     .text-left-main3 p,
     .text-right-main4 p {
-    font-size: 1rem;
+    font-size: 0.5rem;
     font-weight: 100;
     color: white;
     }
@@ -478,10 +477,10 @@ nav ul .btn-sign-in {
         width: 50vw;
     }
     .img-left-main2 img{
-    height: 20rem;
+    height: 8rem;
     }
     .img-left-main4 img{
-        width: 23rem;
+        width: 10rem;
     }
 
     .frequenty-asked-qns .fqn .qns h2 {
