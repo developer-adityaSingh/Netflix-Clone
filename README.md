@@ -25,7 +25,7 @@ You can view the live version of the Netflix clone [here](https://netflix-cloned
 ```bash
 git clone https://github.com/developer-adityaSingh/Netflix-Clone.git
 ```
-2. Navigate to the project directory:
+2. Navigate to the project directory
 ```bash
 cd Netflix-Clone
 ```
